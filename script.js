@@ -11,13 +11,7 @@ const Search = document.querySelector("#search");
 // Loader
 const Loading = document.querySelector(".Loading");
 
-// Modal window
-const Modal = document.querySelector(".Modal");
-const Close = document.querySelector(".Close");
 
-Close.addEventListener("click", () => {
-    Modal.style.display = "none";
-});
 
 
 // fetch 
